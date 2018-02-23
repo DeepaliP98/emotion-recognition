@@ -1,0 +1,22 @@
+EMOTION DETECTION  (Depression detection)
+-----------------------------
+Deepali Prabhu
+Sree Hari
+Manish Soni
+Microsoft Innovation Labs,PESU
+------------------------------
+BASIC IDEA
+To scrape the tweets of a user and lemmatize it to get root words
+run it through a trained model for different emotion classes to get emotion of the tweet
+Basic tkinter graphic interface to display results
+Uses python3 tkinter nltk package Beautiful Soup and pickler
+FUTURE WORK: To analyze the the emotion of the tweets over a period of time and to detect signs of depressions among actively social users
+NOTE:due to lack of dataset training model may not be very accurate
+------------------------------------------------------------------------------------------------------------------------------------------------
+The files involved:
+Trainer.py: python program that trains the neural network (run first)
+Trainingdata.txt:contains the data required to train the model
+switch3.py:tkinter app that connects trainer and tweets to display results
+scrape1.py:scrapes tweets of a user given id and stores in twe.txt along with date and time
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
